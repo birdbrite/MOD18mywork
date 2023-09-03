@@ -47,7 +47,7 @@
     display: block;
     float: left;
     font-size: 2em;
-    padding: 10px 20px;
+    padding: 10px 30px;
     text-decoration: none;
   }
   
@@ -59,10 +59,10 @@
     transition: max-height .2s ease-out;
   }
   
-  /* menu icon */
+  /* menu icon TEST */
   
-  .header .menu-icon {
-    cursor: pointer;
+  /*.header .menu-icon {
+    cursor: crosshair;
     display: inline-block;
     padding: 28px 20px;
     position: relative;
@@ -95,9 +95,9 @@
   
   .header .menu-icon .navicon:after {
     top: -5px;
-  }
+  }*/
   
-  /* menu btn */
+  /* menu btn TEST END */
   
   .header .menu-btn {
     display: none;
