@@ -277,7 +277,7 @@ ul {
   
   footer {
      background-color: #beb5de;
-      position: absolute;
+      position: fixed;
       display: flex;
       height: 30px;
       width: 100%;
