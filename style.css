@@ -44,7 +44,7 @@
   
 
   .header .logo {
-    display: block;
+    display: absolute;
     float: left;
     font-size: 2em;
     padding: 10px 30px;
@@ -59,9 +59,9 @@
     transition: max-height .2s ease-out;
   }
   
-  /* menu icon TEST */
+  /* menu icon */
   
-  /*.header .menu-icon {
+  .header .menu-icon {
     cursor: crosshair;
     display: inline-block;
     padding: 28px 20px;
@@ -95,9 +95,9 @@
   
   .header .menu-icon .navicon:after {
     top: -5px;
-  }*/
+  }
   
-  /* menu btn TEST END */
+  /* menu btn */
   
   .header .menu-btn {
     display: none;
@@ -142,12 +142,13 @@
     }
   }
   
-
+/*
 .logo {
     position: absolute;
     margin-left: 10px;
     cursor:crosshair;
 }
+*/
 
 .topNav {
     display: flex;
