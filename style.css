@@ -7,7 +7,7 @@
 /* header */
 
 #header {
-
+    background-color: transparent;
     display: flex; 
     justify-content: center; /* center everything */
     align-items: center;
@@ -26,7 +26,7 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-
+    background-color: #fff;
   }
   
   .header li a {
