@@ -233,6 +233,12 @@ ul {
   background-color: #beb5de;
   border: 1px solid #eceff133;
   border-radius: 15px;
+  box-shadow: 7px 5px 5px rgb(82, 93, 113);
+}
+
+.card:hover {
+    background-color: white;
+    box-shadow: 7px 5px 5px rgb(255, 255, 255);
 }
 
 .sample-image {
@@ -241,7 +247,13 @@ ul {
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-radius: 30px;
+
   }
+
+.sample-image:hover {
+    border-radius: 0px;
+}
 
 .card__heading {
   font-size: 1.05em;
@@ -269,6 +281,11 @@ ul {
   border-radius: 10px;
   font-size: 1rem;
   font-weight: 600;
+}
+
+.cta:hover {
+  background-color: #8ba1ef;
+  color:#0d0d0d
 }
 
 
